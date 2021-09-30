@@ -1,7 +1,6 @@
 import {platform} from './constants'
 
 import * as React from 'react'
-import {View} from 'react-native'
 import { WebView } from 'react-native-webview'
 
 type IProps = {
@@ -48,7 +47,7 @@ class ReCaptchaComponent extends React.PureComponent<IProps> {
   }
 
   render() {
-    return <View style={{flex: 0.0001, width: 0, height: 0}}>
+    return (
       <WebView
         ref={(ref) => {
           this._webViewRef = ref
@@ -65,8 +64,10 @@ class ReCaptchaComponent extends React.PureComponent<IProps> {
         }}
         onMessage={(e: any) => {
           this.props.onReceiveToken(e.nativeEvent.data)
-        }}/>
-    </View>
+        }}
+        style={{flex: 0, width: 0, height: 0}}
+      />
+    ) 
   }
 }
 
