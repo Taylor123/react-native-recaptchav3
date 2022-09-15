@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 declare type IProps = {
     captchaDomain: string;
     onReceiveToken: (captchaToken: string) => void;

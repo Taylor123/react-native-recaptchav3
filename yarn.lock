@@ -3608,12 +3608,11 @@ sax@~1.1.1:
   resolved "http://registry.npmjs.org/sax/-/sax-1.1.6.tgz#5d616be8a5e607d54e114afae55b7eaf2fcc3240"
 
 scheduler@^16.6.2:
-  version "0.21.0-alpha-fd5e01c2e-20210913"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.21.0-alpha-fd5e01c2e-20210913.tgz#b44ab3a8bddc6ed85ab4ec656419544288be4616"
-  integrity sha512-ylcV55/U6e67/3tjL16ognZk14UX/J4/C1N0XLZjqKV+XYS0QSxdwin/kdqxueCCbDLh0xLroq/G2lVTbFHP0Q==
+  version "0.24.0-next-f0efa1164-20220901"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.24.0-next-f0efa1164-20220901.tgz#0bb5ffa0fc68c1f03e28cb2baf11fe24bfbf3402"
+  integrity sha512-ftphfdSJDOXCupTUPjPaxUxvsO5D9IyENbhrIypkN65osCOCkF9VGOCfmkdcI4V9L1nOu4M3AuXtLiSRVS3ozQ==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 "semver@2 || 3 || 4 || 5", semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1:
   version "5.6.0"
